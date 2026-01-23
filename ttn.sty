@@ -24,7 +24,7 @@
 %
 %% USAGE NOTES
 %  -----------
-% - Uses fontspec, so y8ou will need to use lualatex or xelatex.
+% - Uses fontspec, so you will need to use lualatex or xelatex.
 % 
 %% TODO
 %% ----
@@ -87,6 +87,7 @@
 \RequirePackage{microtype}
 \setmainfont[Numbers=OldStyle]{CMU Concrete}
 \setsansfont{CMU Bright}
-\usepackage[math-style=upright]{unicode-math}
-\setmathfont{Euler Math}
+\RequirePackage{unicode-math}
+% \usepackage[math-style=upright]{unicode-math}
+% \setmathfont{Euler Math}
 \RequirePackage[sf,bf]{titlesec}
