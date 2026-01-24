@@ -87,7 +87,8 @@
 \RequirePackage{microtype}
 \setmainfont[Numbers=OldStyle]{CMU Concrete}
 \setsansfont{CMU Bright}
-\RequirePackage{unicode-math}
+\RequirePackage[math-style=upright]{unicode-math}
 % \usepackage[math-style=upright]{unicode-math}
-% \setmathfont{Euler Math}
+\setmathfont{Euler Math}
+\setmathfont{Asana Math}[range={"2A74}] % fallback for "::="
 \RequirePackage[sf,bf]{titlesec}
